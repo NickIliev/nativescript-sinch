@@ -2,7 +2,7 @@
     "name": "nativescript-sinch",
     "version": "0.0.1",
     "nativescript": {
-        "ios": "2.5.0",
-        "android": "2.5.0"
+        "ios": "3.4.0",
+        "android": "3.4.0"
     }
 }
