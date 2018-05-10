@@ -1,26 +1,40 @@
-# POC NativeScript plugin for using Sinch! SDK for implementing phone calls, video calls and messaging in your application.
+# Your Plugin Name
 
+Add your plugin badges here. See [nativescript-urlhandler](https://github.com/hypery2k/nativescript-urlhandler) for example.
 
-> Disclaimer: this is POC plugn in alpha state.
+Then describe what's the purpose of your plugin. 
 
-## Steps (Android)
+In case you develop UI plugin, this is where you can add some screenshots.
 
-- registed at [https://www.sinch.com/](https://www.sinch.com/)
+## (Optional) Prerequisites / Requirements
 
-- download from here the Android .aar SDK file named omething like `sinch-android-rtc-3.9.14.aar` and place it in `platforms/android`. 
+Describe the prerequisites that the user need to have installed before using your plugin. See [nativescript-firebase plugin](https://github.com/eddyverbruggen/nativescript-plugin-firebase) for example.
 
-- provide `APP_KEY`, `APP_SECRET` and `ENVIRONMENT` in index.ts and run `tsc` to transpile the files to JavaScript
+## Installation
 
-- add the plugin to your NativeScript application with
-`tns plugin add <path-to-plugun>`
+Describe your plugin installation steps. Ideally it would be something like:
 
-- the SDK neeeds the following permissions in your application (this can also be added as a logic taht comes from the plugin)
+```javascript
+tns plugin add <your-plugin-name>
 ```
-	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-	<uses-permission android:name="android.permission.INTERNET"/>
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-	<uses-permission android:name="android.permission.RECORD_AUDIO" />
-	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
-```
+
+## Usage 
+
+Describe any usage specifics for your plugin. Give examples for Android, iOS, Angular if needed. See [nativescript-drop-down](https://www.npmjs.com/package/nativescript-drop-down) for example.
+	
+	```javascript
+    Usage code snippets here
+    ```)
+
+## API
+
+Describe your plugin methods and properties here. See [nativescript-feedback](https://github.com/EddyVerbruggen/nativescript-feedback) for example.
+    
+| Property | Default | Description |
+| --- | --- | --- |
+| some property | property default value | property description, default values, etc.. |
+| another property | property default value | property description, default values, etc.. |
+    
+## License
+
+Apache License Version 2.0, January 2004

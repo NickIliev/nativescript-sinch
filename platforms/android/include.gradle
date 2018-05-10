@@ -1,7 +1,0 @@
-android {
-  productFlavors {
-    "nativescript-sinch" {
-      dimension "nativescript-sinch"
-    }
-  }
-}
