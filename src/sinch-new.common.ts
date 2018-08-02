@@ -20,7 +20,7 @@ export class Sinch extends StackLayout {
     }
 
     public createUI() {
-        console.log("_createUI this: " + this)
+        console.log("_createUI this: " + this);
         // example for how to structure your messaging UI
         const lbl = new Label();
         lbl.text = "new message";
@@ -57,7 +57,7 @@ export class Sinch extends StackLayout {
                 console.log("area: " + area);
                 console.log("message: " + message);
             }
-        })
+        });
 
         this.sinchClient.addSinchClientListener(sinchClientListener);
         this.sinchClient.start();
